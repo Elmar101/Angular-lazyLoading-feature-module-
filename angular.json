@@ -28,6 +28,7 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -91,9 +92,12 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/bootstrap/dist/js/bootstrap.min.js"
+            ]
           }
         },
         "lint": {
@@ -124,5 +128,8 @@
       }
     }
   },
-  "defaultProject": "fApp"
+  "defaultProject": "fApp",
+  "cli": {
+    "analytics": "a68199f2-c24f-4bd7-909d-94c89ff8c382"
+  }
 }
